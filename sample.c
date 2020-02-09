@@ -1,6 +1,6 @@
 #include "sample.h"
 #define SIZE 10
-
+// This is the main function
 int main() {
 	srand(time(NULL));
 	int *a = malloc(SIZE * sizeof(int));
