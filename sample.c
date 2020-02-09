@@ -21,6 +21,7 @@ int main() {
 	return 0;
 }
 
+// Adds the arrays
 void add (int *a, int *b, int *c, int N) {
 	for (int i = 0; i < N; ++i) {
 		c[i] = a[i] + b[i];
