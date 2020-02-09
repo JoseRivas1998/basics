@@ -17,6 +17,7 @@ int main() {
 	free(a);
 	free(b);
 	free(c);
+	printf("Added a nice message\n");
 	return 0;
 }
 
